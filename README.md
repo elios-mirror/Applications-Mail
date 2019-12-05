@@ -1,2 +1,1 @@
-# Mail
-
+EMail application for Elios Mirror

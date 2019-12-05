@@ -1,0 +1,28 @@
+[
+    {
+        "type": "dropdown",
+        "name": "provider",
+        "placeholder": "Email provider",
+        "required": true,
+        "values": [
+            {
+                "text": "Outlook",
+                "value": "IMAP-mail.Outlook.com"
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "mail",
+        "placeholder": "Mail adress",
+        "required": true,
+        "validator": "email"
+    },
+    {
+        "type": "input",
+        "name": "password",
+        "placeholder": "Password",
+        "required": true,
+        "validator": "password"
+    }
+]
